@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Management-system</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Management-system</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <input type="checkbox" id="menu-toggle" />
+    <nav>
+      <div class="logo"><img src="./assets/images/logo.png" alt="logo" /></div>
+      <div class="links">
+        <!-- DESKTOP NAV, HIDDEN ON MOBILE -->
+        <ul>
+          <li class="link-item">Home</li>
+          <li class="link-item">Features</li>
+          <li class="link-item">Community</li>
+          <li class="link-item">Blog</li>
+          <li class="link-item">Pricing</li>
+        </ul>
+        <button class="button-element">
+          Register Now <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <label for="menu-toggle" class="hamburger"
+          ><i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i
+        ></label>
+      </div>
+    </nav>
+    <!-- MOBILE NAV, HIDDEN ON DESKTOP (max-width: 768px) -->
+    <div class="mobile-nav">
+      <ul>
+        <li class="mobile-link-item">Home</li>
+        <li class="mobile-link-item">Features</li>
+        <li class="mobile-link-item">Community</li>
+        <li class="mobile-link-item">Blog</li>
+        <li class="mobile-link-item">Pricing</li>
+      </ul>
+    </div>
+    <!-- BANNER -->
+    <div class="banner-section">
+      <div class="banner-section-container">
+        <div class="banner-content">
+          <div class="banner-content-wrapper">
+            <div class="banner-main-text">Lessons and insights <br /> <span>from 8 years</span></div>
+            <div class="banner-sub-text">
+              Where to grow your business as a photographer: site or social media?
+            </div>
+            <div><button class="button-element">Learn More</button></div>
+          </div>
+        </div>
+        <div class="banner-illustration"><img src="./assets/images/Illustration.png" alt=""></div>
+      </div>
+      <div class="carousel-controller"></div>
+    </div>
+
+    <!--  -->
+    <div class="client-section"></div>
+    <div class="what-we-do-section"></div>
+    <div class="learn-more-section"></div>
+    <div class="reach-section"></div>
+    <div class="how-to-section"></div>
+    <div class="customer-review-section"></div>
+    <div class="blog-section"></div>
+    <div class="footer-section"></div>
+  </body>
 </html>
